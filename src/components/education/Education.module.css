@@ -1,0 +1,35 @@
+.education_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5vh;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+img {
+  display: block;
+  margin:auto;
+}
+
+.education {
+  max-width: 1500px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .education_box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5vh;
+    gap: 1rem;
+  }
+}
+
+.degree {
+  text-align: center;
+  align-content: center;
+}

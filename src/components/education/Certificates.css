@@ -1,0 +1,38 @@
+
+.bg-certificats {
+  background-color: var(--light-bg);
+  height:50vw;
+  color: var(--text-dark);
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+  text-align: center;
+  margin: auto;
+  max-width: 1500px;
+}
+
+.certificates-slideshow {
+  margin-top: auto;
+}
+
+.certificate-img {
+  border: 2px solid var(--text-dark); 
+  border-radius: 1rem;
+  width: 25vw;
+}
+
+.slideshow {
+  margin-top: auto;
+}
+
+.button {
+  width: 32px;
+}
+
+@media screen and (max-width: 600px) {
+  .certificate-img {
+    scale: 0.7; 
+  }
+}
+

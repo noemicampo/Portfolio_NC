@@ -1,0 +1,106 @@
+.project-img-last {
+  display: block;
+  width: 250px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.project-grid-last {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto; 
+  gap: 3rem;
+  align-content: center;
+} 
+
+.wrap-last {
+  display: grid;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  align-items: center;
+}
+
+.wrap-last:hover{
+  box-shadow: 0 1px 8px rgba(127, 127, 127, 0.15);
+  transform: scale(1.15);
+  transition-duration: 0.4s;
+}
+
+.project-github-last {
+  background-color: rgb(200, 200, 200);
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 5px;
+}
+
+.project-github-last:hover{
+  background: linear-gradient(to right, rgb(255, 0, 234, 0.95), rgb(77, 0, 128, 0.95));
+}
+
+@media only screen and (max-width: 1200px) {
+  .project-grid-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5vh;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .project-grid-last {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 5vh;
+    gap: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-grid-last {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5vh;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .project-grid-last {
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-top: 5vh;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .project-container  {
+    height: 5rem;
+    width: 5rem;
+    padding: 0.75rem;
+  }
+} 
+
+.lastwork-title {
+  text-align: center;
+}
+
+.github-last {
+  height: 30px;
+}
+
+.toque_color {
+  background-image: linear-gradient(to right, rgb(255, 0, 183), rgb(30, 0, 128));
+  height: 100px;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.title-color {
+  color:white;
+  text-align: center;
+  margin:0;
+  padding-top:40px;
+}

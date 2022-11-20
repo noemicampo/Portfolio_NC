@@ -1,0 +1,31 @@
+.intro-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr ;
+    gap: 3rem;
+}
+
+.intro-image {
+    width: 300px;
+    
+    border-radius: 100%;
+}
+
+.intro-general {
+    display: block;
+    max-width: 1500px;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 3rem;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .intro-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5vh;
+        gap: 1rem;
+    }
+}

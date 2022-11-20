@@ -1,0 +1,20 @@
+.pages {
+  text-align: justify;
+  max-width: 1500px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
+
+@media screen  and (max-width: 1600px ){
+  .pages {
+    margin: 3rem;
+  }
+}
+
+@media screen  and (max-width: 500px ){
+  .pages {
+    margin: 1.5rem;
+  }
+}
